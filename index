@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Live Crypto Price Tracker</h1>
+    <select id="coinSelector">
+      <option value="bitcoin">Bitcoin</option>
+      <option value="ethereum">Ethereum</option>
+      <option value="solana">Solana</option>
+    </select>
+    <div class="info">
+      <p><strong>Price:</strong> <span id="price">Loading...</span></p>
+      <p><strong>24h Change:</strong> <span id="change">Loading...</span></p>
+      <p><strong>Market Cap:</strong> <span id="marketCap">Loading...</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
